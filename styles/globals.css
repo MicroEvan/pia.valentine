@@ -18,6 +18,12 @@ body {
   justify-content: center;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-rows: auto auto;
+  place-items: center;
+  gap: 8rem;
+}
 .container {
   position: relative;
   top: 0vmin;
@@ -145,12 +151,10 @@ body {
   
 }
 
-.signature {
+.audio-container {
   display: center;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-
 }
 
 @keyframes open {
