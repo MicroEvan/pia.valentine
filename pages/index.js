@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import Header from '@components/Header'
-import Footer from '@components/Footer'
+
 import Container from '@components/Container'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Happy Valentine's Pia My love</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -16,7 +16,7 @@ export default function Home() {
       <Container />
       </main>
 
-      <Footer />
+      
     </div>
   )
 }
