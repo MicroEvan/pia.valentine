@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Header from '@components/Header'
+import Song from 'components/Song'
 
 import Container from '@components/Container'
 
@@ -14,6 +14,7 @@ export default function Home() {
       <main>
       <link href="https://fonts.googleapis.com/css?family=Solitreo" rel="stylesheet" />
       <Container />
+      <Song />
       </main>
 
       

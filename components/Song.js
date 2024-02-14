@@ -1,9 +1,21 @@
+import React, { useEffect, useState } from 'react';
+
 export default function Song() {
-    return (
-     <div className="signature" >
-        <audio autoPlay audio-player >
-          <source src="/nikukonde.mp3" type="audio/mpeg" />
-        </audio>
-      </div>
-    );
-  }
+  const [audio, setAudio] = useState(null);
+
+  useEffect(() => {
+    setAudio(new Audio("/nikukonde.mp3"));
+  }, []);
+
+  useEffect(() => {
+    if (audio) {
+      audio.play();
+    }
+  }, [audio]);
+
+  return (
+    <div>
+      {/* Your app content */}
+    </div>
+  );
+};
