@@ -1,6 +1,6 @@
 import Card from '@components/Card'
 import Lid from '@components/Lid'
-import styles from './styles.css'
+
 
 export default function Container() {
     return (
