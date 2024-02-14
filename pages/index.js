@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Container from '@components/Container'
 
 export default function Home() {
   return (
@@ -11,10 +12,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+      <link href="https://fonts.googleapis.com/css?family=Solitreo" rel="stylesheet" />
+      <Container />
       </main>
 
       <Footer />
