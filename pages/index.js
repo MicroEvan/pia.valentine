@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Happy Valentine's Pia My love</title>
+        <title>Happy Valentines Pia My love</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
